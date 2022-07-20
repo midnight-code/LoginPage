@@ -19,7 +19,7 @@ namespace LoginPage
 
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new RegisterPage());
+            Navigation.PushModalAsync(new RegisterPage());
         }
 
         private void Button_Clicked(object sender, EventArgs e)
